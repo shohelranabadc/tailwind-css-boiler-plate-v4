@@ -1,18 +1,17 @@
 {
-  "name": "boiler-plate-v4",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "tailwindcss-boiler-plate-v4",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
-  "devDependencies": {
-    "vite": "^6.3.5"
-  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.7",
+    "@tailwindcss/cli": "^4.1.7",
     "tailwindcss": "^4.1.7"
   }
 }
